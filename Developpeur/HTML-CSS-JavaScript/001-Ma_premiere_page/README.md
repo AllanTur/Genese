@@ -2,7 +2,7 @@
 
 ## Liens des projets :
 
-- [Demo.html](https://allantur.github.io/Developpeur/HTML-CSS-JavaScript/001-Ma_premiere_page/demo.html)
+- [Demo.html](https://allantur.github.io/Genese/Developpeur/HTML-CSS-JavaScript/001-Ma_premiere_page/demo.html)
 
 ### [Tuto Grafikart](https://grafikart.fr/)
 
