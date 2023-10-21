@@ -3,7 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>LeRestaurant, Restaurant fruit de mer sur Montpellier</title>
+    <title>Fiasco, Restaurant fruit de mer sur Montpellier</title>
 
     <!-- Le Favicon, permet d'afficher une image dans l'onglet du navigateur -->
     <link rel="icon" href="images/justdoit_shialaboeuf.jpg" />
@@ -11,10 +11,11 @@
   <body>
     <h1>Restaurant Le Fiasco</h1>
 
+    <!-- Lien interne #cuisine et menu.html#plats-chauds -->
     <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempora
+      Lorem ipsum dolor sit amet <a href="#cuisine">cuisine</a> adipisicing elit. Quisquam tempora
       sequi excepturi asperiores reprehenderit, accusamus aspernatur debitis eum
-      necessitatibus modi soluta dicta minima est voluptatem laborum tempore,
+      une large sélection de <a href="menu.html#plats-chauds">plats chauds</a> modi soluta dicta minima est voluptatem laborum tempore,
       aperiam itaque beatae!
     </p>
 
@@ -26,7 +27,7 @@
       eligendi enim delectus tempore assumenda unde ab, quos quisquam eum.
     </p>
 
-    <h2>Notre cuisine</h2>
+    <h2 id="cuisine">Notre cuisine</h2>
 
     <p>
       Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, ipsum
@@ -35,6 +36,8 @@
       nam.
     </p>
 
-    <p>Voir le menu</p>
+    <!--Lien Hypertexte -->
+    <!-- Lien relatif-->
+    <a href="menu.html">Voir le menu</a>
   </body>
 </html>
