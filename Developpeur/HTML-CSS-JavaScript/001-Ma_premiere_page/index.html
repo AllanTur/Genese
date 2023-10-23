@@ -8,13 +8,24 @@
     <!-- Le Favicon, permet d'afficher une image dans l'onglet du navigateur -->
     <link rel="icon" href="images/justdoit_shialaboeuf.jpg" />
   </head>
+
   <body>
+
+    <!-- Balise nav (navigation)-> permet de mettre plusieurs liens vers les pages de notre site -->
+    <nav>
+      <ul>
+        <li><a href="index.html" title="Accueil">Accueil</a></li>
+        <li><a href="menu.html" title="Menu">Menu</a></li>
+        <li><a href="contact.html" title="Contact">Contact</a></li>
+      </ul>
+    </nav>
+
     <h1>Restaurant Le Fiasco</h1>
 
     <!-- iframe -->
 
     <!-- iframe Vidéo Youtube -->
-    <!--
+    
       <iframe
       width="560"
       height="315"
@@ -23,7 +34,7 @@
       frameborder="0"
       allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
       allowfullscreen
-    ></iframe> -->
+    ></iframe> 
 
     <!-- iframe Emplacement Google Maps -->
     <iframe
@@ -58,7 +69,18 @@
       />
     </a>
 
+    <!-- div (entoure des blocs) et span (entoure des mots ou des phrases) | Pas de signification au niveau sémantique -->
     <!-- Lien interne #cuisine et menu.html#plats-chauds -->
+
+    <div class="bigtext">
+    <p>
+      <span>Lorem ipsum</span> dolor sit amet <a href="#cuisine">cuisine</a> adipisicing
+      elit. Quisquam tempora sequi excepturi asperiores reprehenderit, accusamus
+      aspernatur debitis eum une large sélection de
+      <a href="menu.html#plats-chauds">plats chauds</a> modi soluta dicta minima
+      est voluptatem laborum tempore, aperiam itaque beatae!
+    </p>
+
     <p>
       Lorem ipsum dolor sit amet <a href="#cuisine">cuisine</a> adipisicing
       elit. Quisquam tempora sequi excepturi asperiores reprehenderit, accusamus
@@ -66,6 +88,7 @@
       <a href="menu.html#plats-chauds">plats chauds</a> modi soluta dicta minima
       est voluptatem laborum tempore, aperiam itaque beatae!
     </p>
+  </div>
 
     <h2>Historique</h2>
 
