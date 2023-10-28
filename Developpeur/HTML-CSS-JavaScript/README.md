@@ -5,6 +5,7 @@
 - [Documentation MDN](https://developer.mozilla.org/fr/docs/Web/HTML)
 - [Visual Studio Code](https://code.visualstudio.com/)
 - [Validateur W3C](https://validator.w3.org/)
+- [Documentation MDN : Formulaire HTML](https://developer.mozilla.org/fr/docs/Web/HTML/Element/form)
 
 - ### Pour les caractère spécial/ réservé :
   - [Entité](https://developer.mozilla.org/fr/docs/Glossary/Entity)
