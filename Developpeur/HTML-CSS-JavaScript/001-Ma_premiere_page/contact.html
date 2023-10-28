@@ -27,7 +27,65 @@
     <!-- Formulaire-->
 
     <form action="contact.html">
-
+      <fieldset>
+        <legend>Nous contacter</legend>
+        <div>
+          <label for="email_input">Votre email</label>
+          <input
+            type="text"
+            name="email"
+            id="email_input"
+            placeholder="contact@demo.fr"
+            required
+          />
+        </div>
+        <div>
+          <label for="file_input">Pièce jointe</label>
+          <input type="file" name="file" id="file_input" />
+        </div>
+        <div>
+          <label for="name_input">Votre Nom</label>
+          <input type="text" name="firstname" id="name_input" />
+        </div>
+        <div>
+          <label>Sexe</label>
+          <div>
+            <input type="radio" name="sexe" id="masculin" checked />
+            <label for="masculin">Masculin</label>
+          </div>
+          <div>
+            <input type="radio" name="sexe" id="feminin" />
+            <label for="femini">Féminin</label>
+          </div>
+        </div>
+        <div>
+          <label for="color">Choix couleur</label>
+          <select name="color" id="color">
+            <option value="rouge">Rouge</option>
+            <option value="bleu">Bleu</option>
+          </select>
+        </div>
+        <div>
+          <label for="animal">Animal préféré</label>
+          <select name="animal" id="animal">
+            <optgroup label="Mammifére">
+              <option value="cheval">Cheval</option>
+              <option value="chat">Chat</option>
+            </optgroup>
+            <optgroup label="Poisson">
+              <option value="thon">Thon</option>
+            </optgroup>
+          </select>
+        </div>
+        <div>
+          <label
+            ><input type="checkbox" name="cgu" />J'accepte les conditions
+            d'utilisations</label
+          >
+        </div>
+        <input type="submit" value="Envoyer un email" />
+        <input type="reset" value="Annuler" />
+      </fieldset>
     </form>
   </body>
 </html>
