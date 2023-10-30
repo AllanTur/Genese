@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Restaurant, contact</title>
+    <meta name="description" content="Un texte descrivant notre Restaurant">
+</head>
+<body>
+    <header>
+        <h1>Nous contacter</h1>
+        <nav>
+            <a href="index.html" title="Accueil">Accueil</a>
+            <a href="menu.html" title="Voir le menu">Menu</a>
+            <a href="contact.html" title="Nous contacter">Contact</a>
+        </nav>
+        <img src="img/banniere_restaurant_fiasco.jpg" width="1260" height="588" alt="Photo du restaurant Fiaco">
+    </header>
+    <section>
+        <h2>Où nous trouver ?</h2>
+        <p>
+            123 Rue de la démonstration <br>
+            34000 Montpellier <br>
+            France
+        </p>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d21046.912242569822!2d2.471763721067189!3d48.74629406263833!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47e60ba2e314ca43%3A0x2aa84085510d6864!2s94450%20Limeil-Br%C3%A9vannes!5e0!3m2!1sfr!2sfr!4v1698667740802!5m2!1sfr!2sfr"
+         width="1200" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+         <h2>Nous envoyer un mail</h2>
+         <form action="contact.html">
+            <div>
+                <label for="email">Votre email</label>
+                <input type="email" id="email" name="email" placeholder="contact@gmail.com" required>
+            </div>
+            <div>
+                <label for="firstname">Votre prénom</label>
+                <input type="text" id="firstname" name="firstname" required>
+            </div>
+            <div>
+                <label for="message">Votre message</label>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+            <button type="submit">Envoyer votre email</button>
+         </form>
+    </section>
+    <footer>
+        <address>123 Rue de la démonstration</address>
+    </footer>
+</body>
+</html>
