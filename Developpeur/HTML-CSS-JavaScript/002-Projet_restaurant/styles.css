@@ -1,29 +1,37 @@
-/* Règle CSS spécifique : Il prend la règle la plus spécifique dans se cas, 
-    c'est le h1 spécifier avec la classe "title-big"*/
-
-.title-big {
-    color: red;
+body {
+    margin: 0;
 }
 
-/* Règle CSS : Dans ce cas ci, il prend la dernière règle à appliquer sur tous les h1, 
-    càd la couleur blueviolet */
-
-h1 {
-    color: green;
-    color: blueviolet;
+.header {
+    background: grey;
+    padding: 20px;
+    height: auto;
 }
 
-/* Combinaison descendante */
-
-table h2 {
-    color: red;
-}
-/* Combinance : Enfant direct */
-
-td > h2 {
-    color: aqua;
+.header-title {
+    margin-top: 0;
 }
 
-h2 {
-    color: green;
+.header-nav {
+    margin: 20px 0;
+}
+
+.header-nav a {
+    padding:  0 10px;
+}
+
+.header img {
+    width: 100%;
+    height: auto;
+}
+
+.main {
+    background: lightgray;
+    padding: 20px;
+}
+
+.footer {
+    background: gray;
+    padding: 10px 20px;
+
 }
