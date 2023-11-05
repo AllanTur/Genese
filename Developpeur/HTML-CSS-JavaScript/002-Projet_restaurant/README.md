@@ -120,3 +120,66 @@ body {
 
 }
 ```
+
+## Polices et textes
+
+line-height = Hauteur de ligne
+
+```css
+/* La valeur de color est en hexadécimal #FFFFFF (~Blanc) et
+     font-size permet de déterminer la taille de la police dans ce cas 14 pixels */
+p {
+    color : #FFFFFF;
+    font-size : 14px;
+    /* Le grasage utiliser */
+    font-weight: bold;
+    /* Le style de la police */
+    font-style: italic;
+    /* Espace entre les lettres*/
+    letter-spacing: 0.2px;
+     /* La police à utiliser, toujours mettre à la fin soit sans-serif ou serif */
+    font-family: "Source Sans Pro" ,sans-serif;
+    /* text-align sert a aligné un texte */
+    text-align: justify;
+    /* Aligne la dernière ligne d'un texte */
+    text-align-last: right;
+    /* Pour "casser" le texte */
+    overflow-wrap: break-word;
+    /* Avec plus de controle pour casser un texte */
+    word-break: break-word;
+    /* Casse le texte met rajoute une césure avec un tiret "-" */
+    hyphens: auto;
+
+    /* Sert à indenter un text */
+    text-indent: 100px;
+    
+    /* Dans ce cas text-transform met le texte en majuscule */
+    text-transform : uppercase;
+}
+
+/* Applique se style à la première lettre du premier paragraphe */
+p:first-of-type::first-letter {
+    font-weight: bold;
+    font-size: 100px;
+}
+
+/* text-decoration */
+
+.header-nav a {
+    padding:  0 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+.header-nav a:hover {
+    text-decoration: underline;
+}
+
+```
+Ou pour casser le texte on peut directement le faire en HTML.
+
+```html
+
+<p> blablablablablablablablablablab&shy;lablablablablablablablablablablablablablablablablabla </p>
+
+```
