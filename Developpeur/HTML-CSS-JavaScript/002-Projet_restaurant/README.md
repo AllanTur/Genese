@@ -176,10 +176,54 @@ p:first-of-type::first-letter {
 }
 
 ```
-Ou pour casser le texte on peut directement le faire en HTML.
+Ou pour casser le texte on peut directement le faire en HTML avec :
+```html 
+&shy; 
+```
 
 ```html
 
 <p> blablablablablablablablablablab&shy;lablablablablablablablablablablablablablablablablabla </p>
 
+```
+
+## Les formats de couleurs
+
+```css
+
+/* Valeurs avec un mot-clé */
+color: currentcolor;
+
+/* Valeurs avec un mot-clé pour une couleur nommée */
+color: red;
+color: orange;
+color: tan;
+color: rebeccapurple;
+
+/* Valeurs hexadécimales <hex-color> */
+color: #090;
+color: #009900;
+color: #090a;
+color: #009900aa;
+
+/* Valeurs utilisant la fonction <rgb()> */
+color: rgb(34, 12, 64, 0.6);
+color: rgba(34, 12, 64, 0.6);
+color: rgb(34 12 64 / 0.6);
+color: rgba(34 12 64 / 0.3);
+color: rgb(34 12 64 / 60%);
+color: rgba(34.6 12 64 / 30%);
+
+/* Valeurs <hsl()> */
+color: hsl(30, 100%, 50%, 0.6);
+color: hsla(30, 100%, 50%, 0.6);
+color: hsl(30 100% 50% / 0.6);
+color: hsla(30 100% 50% / 0.6);
+color: hsl(30 100% 50% / 60%);
+color: hsla(30.2 100% 50% / 60%);
+
+/* Valeurs globales */
+color: inherit;
+color: initial;
+color: unset;
 ```
